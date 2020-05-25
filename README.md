@@ -36,7 +36,7 @@ optional arguments:
 
 ### Support:
 
-Currently supports self-hosted Jira instances. Didn't test it on cloud-based instances.
+Currently supports self-hosted Jira server instances. Didn't test it on cloud-based instances.
 
 ### Disclaimer:
 
