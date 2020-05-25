@@ -1,2 +1,47 @@
 # jecretz
-Jira Secret Hunter - Helps you find credentials and sensitive contents in Jira tickets
+Jira Secrets Hunter - Helps you find credentials and sensitive contents in Jira tickets. A handy tool for bug bounty and red-team activities. It performs search based on the keyword-list provided and does regular expression matching for secretz analysis. The search will go deep enough to cover both description and comments section of Jira tickets.
+
+__Requires Python3__
+
+### Installing dependencies
+
+`pip3 install -r requirements.txt`
+
+### Adding auth token:
+
+You can configure Jira auth token in the file __config.json__.
+
+For jira self-hosted software, the auth token is usually `Basic base64_encode(user@xyz.co:password)`
+
+Yes, you will have to perform Basic authentication, since Jira doesn't provide a feature to generate REST API tokens for self-hosted Jira servers as of writing this. The feature request [JRASERVER-67869](https://jira.atlassian.com/browse/JRASERVER-67869?_ga=2.121133064.1451771552.1590422340-96494979.1587650002) is still open.
+
+### Usage:
+
+`python3 jecretz.py --url "https://domain.root.tld/" --threads 50 --out output.txt`
+
+##### Help:
+
+```
+usage: jecretz.py [-h] -u URL [-t threads] [-o file]
+
+Jecretz, Jira Secrets Hunter
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     jira instance url, eg: https://jira.domain.tld/
+  -t threads, --threads threads
+                        default: 10
+  -o file, --out file   file to save output to, eg: -o output.txt
+  ```
+
+### Support:
+
+Currently supports self-hosted Jira instances. Didn't test it on cloud-based instances.
+
+### Disclaimer:
+
+I won't be responsible for any action you may perform with this tool. Be careful with them threads.
+
+### Follow me:
+
+Twitter: @sahad_nk
