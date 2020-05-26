@@ -1,9 +1,0 @@
-
-[+] Jecretz Results
-
-+----------+-------------+----------+
-| Issue ID | Description | Comments |
-+----------+-------------+----------+
-
-[+] Returned 0 items
-
