@@ -5,7 +5,7 @@ Currently supports self-hosted Jira server instances. Didn't test it on cloud-ba
 
 __Requires:__ Python3
 
-### Installing dependencies
+### Installing dependencies:
 
 `pip3 install -r requirements.txt`
 
