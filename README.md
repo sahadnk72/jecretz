@@ -23,6 +23,8 @@ Yes, you will have to perform Basic authentication, since Jira doesn't provide a
 
 `python3 jecretz.py --url "https://jira.domain.tld/" --threads 50 --out output.txt`
 
+If your Jira is behind Okta or any other SSO, make sure to establish SSO session before you run this tool.
+
 ##### Help:
 
 ```
