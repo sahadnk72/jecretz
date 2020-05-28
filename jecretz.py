@@ -56,7 +56,7 @@ def search(url, keyword, token, issueList = []):
 		except:
 			print("\n[-] " + keyword + " didn't return any results")
 	except:
-		print("\n[-] Error reaching Jira")
+		print("\n[-] Something went wrong. Check your auth token.")
 	return issueList
 
 def fetch_issues(url, issueId, token):
