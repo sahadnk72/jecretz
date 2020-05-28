@@ -38,6 +38,7 @@ def get_token():
 	except:
 		print("[-] Authorization token required")
 		sys.exit(0)
+
 def search(url, keyword, token, issueList = []):
 	jql_query = 'text ~ "'+keyword+'"'
 	headers = {'Authorization': token, 'X-Atlassian-Token': 'no-check'}
