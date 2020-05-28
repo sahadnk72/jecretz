@@ -19,7 +19,7 @@ Yes, you will have to perform Basic authentication, since Jira doesn't provide a
 
 ### Usage:
 
-`python3 jecretz.py --url "https://domain.root.tld/" --threads 50 --out output.txt`
+`python3 jecretz.py --url "https://jira.domain.tld/" --threads 50 --out output.txt`
 
 ##### Help:
 
