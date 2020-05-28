@@ -7,7 +7,7 @@ __Requires:__ Python3
 
 ### Installing dependencies:
 
-`pip3 install -r requirements.txt`
+`sudo pip3 install -r requirements.txt`
 
 ### Adding auth token:
 
