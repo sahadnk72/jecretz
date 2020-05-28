@@ -15,6 +15,8 @@ You can configure Jira auth token in the file __config.json__.
 
 For jira self-hosted software, the auth token is usually `Basic base64_encode(user@xyz.co:password)`
 
+(Note: The username could be with or without email domain in it, depending on how your company uses it)
+
 Yes, you will have to perform Basic authentication, since Jira doesn't provide a feature to generate REST API tokens for self-hosted Jira servers as of writing this. The feature request [JRASERVER-67869](https://jira.atlassian.com/browse/JRASERVER-67869?_ga=2.121133064.1451771552.1590422340-96494979.1587650002) is still open.
 
 ### Usage:
