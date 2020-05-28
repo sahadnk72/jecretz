@@ -1,1 +1,1 @@
-{"token": "PASTE YOUR AUTH TOKEN HERE", "_comment": "Auth token is usually 'Basic base64_encode(user@xyz.co:password)'. If not provided, Jecretz will only pull issues from public projects!"}
+{"token": "PASTE YOUR AUTH TOKEN HERE", "_comment": "Auth token is usually 'Basic base64_encode(user@xyz.co:password)'. If not provided, Jecretz will pull issues only from public projects!"}
