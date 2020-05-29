@@ -56,7 +56,7 @@ def search(url, keyword, token, issueList = []):
 		except:
 			print("\n[-] " + keyword + " didn't return any results")
 	except:
-		print("\n[-] Something went wrong. Check your auth token.")
+		print("\n[-] Something went wrong. Check your auth token. Some-times this could be due to Okta/SSO.")
 	return issueList
 
 def fetch_issues(url, issueId, token):
