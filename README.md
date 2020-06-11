@@ -1,7 +1,6 @@
 # jecretz
 Jira Secrets Hunter - Helps you find credentials and sensitive contents in Jira tickets. A handy tool for red-team activities, internal assessments and bug-bounties. It performs search based on the keyword-list provided and does regular expression matching for secretz analysis. The search will go deep enough to cover both description and comments section of Jira tickets.
 
-Currently supports self-hosted Jira server instances. Didn't test it on cloud-based instances.
 
 __Requires:__ Python3
 
